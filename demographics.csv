@@ -1,0 +1,9 @@
+patient_id,name,age,gender,blood_group,adhd_diagnosis,admission_date
+101,John Okonkwo,45,M,O+,No,2026-01-15
+102,Ada Eze,32,F,A+,Yes,2026-01-20
+103,Chidi Nwosu,28,M,B+,No,2026-02-05
+104,Ngozi Adebayo,55,F,O-,Yes,2026-02-10
+105,Emeka Okafor,41,M,AB+,No,2026-02-18
+106,Fatima Bello,67,F,A-,No,2026-03-01
+107,Yusuf Ibrahim,19,M,O+,Yes,2026-03-08
+108,Grace Mensah,38,F,B-,No,2026-03-15
