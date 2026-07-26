@@ -261,6 +261,7 @@ summary = (
 ax6.text(0.05, 0.95, summary, transform=ax6.transAxes,
          fontsize=9, verticalalignment='top', fontfamily='monospace',
          bbox=dict(boxstyle='round', facecolor='#ecf0f1', alpha=0.8))
+df.to_csv("merged_patient_data.csv", index=False)
 
 plt.savefig("day22_merge_analysis.png", dpi=150, bbox_inches='tight',
             facecolor='#f8f9fa')
