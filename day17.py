@@ -58,7 +58,7 @@ for i, (pred, true) in enumerate(zip(final_preds, y)):
     label = "HIGH RISK" if pred > 0.5 else "LOW RISK"
     correct = "CORRECT" if (pred > 0.5) == (true == 1) else "x"
     print(f"Patient {i+1}: {pred[0]:.2%} -> {label} {correct}")
-
+ 
 # ____ Plot learning curve__________
 plt.figure(figsize=(8, 5))
 plt.plot(losses, color='steelblue', linewidth=2)
