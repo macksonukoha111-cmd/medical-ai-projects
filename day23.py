@@ -44,6 +44,7 @@ outer = pd.merge(patients, labs, on='patient_id', how='outer')
 print(outer)
 print(f"Shape: {outer.shape}")
 
+
 # ____ Step 4: Fill missing labs after the left join ________
 print("\n=== Step 4: Handle missing lab data ===")
 left['blood_pressure'].fillna(left['blood_pressure'].median(), inplace=True)

@@ -100,6 +100,6 @@ axes[1].set_title('Cost by Department & Risk Level', fontweight='bold')
 axes[1].set_ylabel('Cost ($)')
 
 plt.tight_layout()
-plt.savefig('day25_capstone.png', dpi=150)
+plt.savefig('day25_capstone.png', dpdayi=150)
 print("\nSaved: day25_capstone.png")
 print("\nDay 25 Capstone complete!")
